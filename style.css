@@ -1,0 +1,46 @@
+nav {
+    background-color: black;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Manjari', sans-serif
+}
+
+.navbar-toggler {
+    align-self: right;
+    color: black;
+}
+
+.nav-link {
+    color:black;
+}
+/*MOBILE FORMAT
+-single column and reduced image
+-nav bar expanded or left alone if image reduced
+-padding
+- portfolio single stacked format, insert cover image for each
+- text reduced under image
+
+IPAD FORMAT
+-image adjusted
+
+DESKTOP FORMAT
+- image size, padding, alignment
+- */
+
+
+ /*-------MEDIA QUERIES------*/
+
+ @media screen and (max-width:700px) {
+     .classname {
+         width: 46%; /*could make a row of four images to two images/row */
+     }
+ }
+
+ /*add another media query if want to adjust something as shrink the browser size*/
+ 
+ @media screen and (max-width:400px) {
+     .classname {
+         width: 92%; /*could make a row of two images (from above) to one image/row, make them larger when reduce browser size*/
+     }
+ }
