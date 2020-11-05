@@ -18,19 +18,8 @@
    <link rel="stylesheet" href="style.css">
 
 </head>
-<!--
-    - Navbar
-    - Navbar must be consistent on each page.
-    - Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-    - the bootstrap portfolio should minimize the use of media queries
-    - All links must work.
-    - a responsive layout
-    - responsive images
-    - Must use semantic html.
-    - Each page must have valid and correct HTML. (use a validation service)
-    - Must contain your personalized information. (bio, name, images, links to social media, etc.)
--->
 
+   
 <body>
  <!----------Navigation Bar--------->
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -61,85 +50,50 @@
       </div>
     </nav>
 
-<!-----------About Me----------->
-<!--Card-Horizontal Bootstrap-->
-
-
-<main class="container-fluid mt-3">
-    <div class="row">
-      <div class="col-sm-10 offset-sm-1 rounded mx-auto bg-secondary text-white d-inline">
-        <header>
-          <h1 class="h1 mt-3">About Me</h1>
-        </header>
-        <hr>
-        <section>
-          <!--<figure>
-            <img src="./imgs/ds-headshot.png" class="img-responsive img-fluid float-left mr-3" 
-            alt="Dana Smooke Headshot">
-          </figure>-->
-
-          <div class="media">
-            <img class="d-flex mr-3 rounded-circle"  img src="./imgs/ds-headshot.png" class="img-responsive img-fluid float-left mr-3" alt="Dana Smooke Headshot">
-            <div class="media-body">
-              <h5 class="mt-0">Media heading</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+<!-----------About Me--------Danny's About me bootstrap card horizontal import---------------->
+    <main class="container-fluid mt-3">
+        <div class="row">
+        <div class="col-sm-10 offset-sm-1 rounded mx-auto bg-secondary d-inline"><!--added rounded and d-inline-->
+        <header><h1 class="h1 mt-3">About Me</h1></header>
+        <div class="card mb-3" style="max-width: 480px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="./imgs/ds-headshot.png" class="card-img" alt="Dana Smooke Headshot">
             </div>
-          </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                <p>
+                    My name is Dana "Danny" Smooke. I am 25 years old, and I graduated from Yale University
+                    with a double major in Theater Studies and Art History. My first introduction to any kind
+                    of web desing was a summer course on Adobe InDesign and Photoshop. I loved how I was able 
+                    to create professional looking layouts using my own style. </p>
+                    
+                    <p>This the summer was my first experience working with any type of coding language. So 
+                    when it became clear that all schools would need to transition to some form of 
+                    online teaching platform, the need for developers skyrocketed and I wanted to help.   
+                    Using LaTeX, I helped convert my father's handwritten technical notes into .png images
+                    to use in PowerPoint.</p>
 
+                    <p>With the arts in limbo, I thought "there is no better time to learn a new skill."
+                    I wanted to find something that would increase employment opportunities but be a 
+                    program that I could come away with something to show. 
+                    <a href=https://www.danasmooke.com/ target="_blank" title="my website"></a></p>
 
-
-
-
-
-
-
-
-          <p>
-            My name is Dana "Danny" Smooke. I am 25 years old, and I graduated from Yale University
-            with a double major in Theater Studies and Art History. My first introduction to any kind
-            of web desing was a summer course on Adobe InDesign and Photoshop. I loved how I was able 
-            to create professional looking layouts using my own style. </p>
-            
-            <p>This the summer was my first experience working with any type of coding language. So 
-            when it became clear that all schools would need to transition to some form of 
-            online teaching platform, the need for developers skyrocketed and I wanted to help.   
-            Using LaTeX, I helped convert my father's handwritten technical notes into .png images
-            to use in PowerPoint.</p>
-
-            <p>With the arts in limbo, I thought "there is no better time to learn a new skill."
-            I wanted to find something that would increase employment opportunities but be a 
-            program that I could come away with something to show. </p>
-          <a
-              href=https://www.danasmooke.com/ target="_blank" title="my website"></a></p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis itaque voluptates accusantium ab repellendus vitae facere illo fugit veritatis iste officia, repellat voluptas totam. Et magnam vitae itaque debitis?</p>
-        </section>
-      </div>
-    </div>
-  </main>
-
-
-<!---------Danny's About me import-----
-    <div class="card mb-3" style="max-width: 540px;">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="./imgs/ds-headshot.png" class="card-img" alt="Dana Smooke Headshot">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis itaque voluptates accusantium ab repellendus vitae facere illo fugit veritatis iste officia, repellat voluptas totam. Et magnam vitae itaque debitis?</p>
+                </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-</div>-->
 
-<footer class="container d-flex bg-primary">
-    <div class="row">
-        <p>Footer Placeholder Text</p>
-    </div>
-</footer>
+    </main>
+
+    <footer class="container d-flex bg-primary">
+        <div class="row">
+            <p>Footer Placeholder Text</p>
+        </div>
+    </footer>
 
 
 
