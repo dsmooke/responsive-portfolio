@@ -18,11 +18,11 @@
 
 
   <body>
-  
-    <nav class="navbar navbar-expland-lg navbar-dark">  <!----------Navigation Bar--------->
+    <!----------Navigation Bar--------->
+    <nav class="navbar navbar-expland-lg navbar-dark">  
       <a class="navbar-brand">Dana Smooke</a>
         
-        <!--Navigation Bar button icon-->
+      <!----Navigation Bar button icon-->
       <button 
           class="navbar-toggler" 
           data-toggle="collapse" 
@@ -47,10 +47,53 @@
           </li>
         </ol>
     </div>
-  </nav>
+    </nav>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" id="portfolio-head">
+          <h1>Portfolio</h1><!--header needs to be inside container for the alignment to be within the column-->
 
- <!--JAVASCRIPT makes the nav bar menu drop down to display links-->
+        </div> <!--end of class col-sm-12-->
+      </div> <!--end of row class-->
+
+          <!--Main view of portfolio-->
+          <main class="container">
+            <section class="row">
+                <section class="col-med-4">
+                    <h1>Portfolio</h1>
+                </section>
+            </section>
+        </main>
+        
+        <!----->
+            <ul class="list-unstyled ">
+                <li class="media center-block">
+                  <img src="..." class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="..." class="img-responsive" alt="1776 Show Photo"> <!--must insert ./imgs/1776.jpg-->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="..." class="mr-3" alt="Tenn Show Photo"> <!--must insert ./imgs/Tenn_6.jpg-->
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+              </ul>
+
+    </div> <!--end of container class-->
+
+    <!--JAVASCRIPT makes the nav bar menu drop down to display links-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
     crossorigin="anonymous"></script>
