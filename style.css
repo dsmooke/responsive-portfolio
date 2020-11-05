@@ -15,16 +15,23 @@ nav { /*navigation bar*/
     color:black;
 }
 
+body {
+    background-image: url(imgs/cracked-background.png);
+}
 figure {
+    position:relative;
     max-width: 367px;
     height: auto;
 }
 .img-fluid {
+    position:relative;
     max-width: 480px;
     height: auto;
     margin: 20px 5%;
 }
 
+.mr-3, .mx-3 {
+    margin-right: 10px !important;
 
 
 /*---------MOBILE DEVICES-------*/
