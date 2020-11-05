@@ -22,7 +22,7 @@
    
 <body>
  <!----------Navigation Bar--------->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Dana Smooke</a> <!--^logo if choose-->
         
         <!--Navigation Bar button icon-->
@@ -35,8 +35,8 @@
             <span class="navbar-toggler-icon"></span>
       </button>
        <!--Navigation Bar dropdown menu items-->
-      <nav class="collapse navbar-collapse" id="navbarSupportedContent" style>
-         <ol class="navbar-nav">
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -46,9 +46,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-         </ol>
-        </nav>
-    </nav>
+         </ul>
+        </nav> <!--end of class="collapse navbar-collapse #navbarSupportedContent-->
+    </nav> <!--end of class="navbar navbar-expand-lg navbar-dark"-->
 
 <!-----------About Me--------Danny's About me bootstrap card horizontal import---------------->
     <main class="container-fluid mt-3"><!--rename main to container tag?-->
@@ -56,12 +56,12 @@
         <div class="col-sm-10 offset-sm-1 rounded mx-auto bg-secondary d-inline"><!--added rounded and d-inline-->
         <header><h1 class="h1 mt-3">About Me</h1></header>
 
-        <section class="card mb-3 row no-gutters col-md-4 style="max-width: 480px;">
+        <section class="card mb-3 row no-gutters col-md-4" max-width: 480px;>
             <figure>
                 <img src="./imgs/ds-headshot.png" class="card-img" alt="Dana Smooke Headshot">
             </figure>
             <section class="col-md-8">
-                <div class="card-body">
+                <section class="card-body">
                 <h5 class="card-title">About Me</h5>
                 <p class="card-text">
                     My name is Dana "Danny" Smooke. I am 25 years old, and I graduated from Yale University
@@ -76,22 +76,21 @@
                     to use in PowerPoint.</p>
 
                     <p>With the arts in limbo, I thought "there is no better time to learn a new skill."
-                    I wanted to find something that would increase employment opportunities but be a 
-                    program that I could come away with something to show. 
+                    I wanted to find a course that would improve me skills, but I wanted to something to show for all the work. 
                     <a href=https://www.danasmooke.com >My website.<target="_blank" title="my website"></a></p>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis itaque voluptates accusantium ab repellendus vitae facere illo fugit veritatis iste officia, repellat voluptas totam. Et magnam vitae itaque debitis?</p>
                 </p>
-                </div>
-            </section>
-        </section>
+                </section> <!--end class="card-body"-->
+            </section> <!--end class="col-md-8"-->
+        </section> <!--end class="card mb-3 row no-gutters col-md-4"-->
 
-    </main>
+    </main> <!--end class="container-fluid mt-3"-->
 
     <footer class="container d-flex bg-primary">
-        <div class="row">
+        <section class="row">
             <p>Footer Placeholder Text</p>
-        </div>
+        </section>
     </footer>
 
 
