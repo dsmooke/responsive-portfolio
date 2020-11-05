@@ -15,6 +15,36 @@ nav { /*navigation bar*/
     color:black;
 }
 
+figure {
+    max-width: 367px;
+    height: auto;
+}
+.img-fluid {
+    max-width: 480px;
+    height: auto;
+    margin: 20px 5%;
+}
+
+
+
+/*---------MOBILE DEVICES-------*/
+
+@media screen and (max-width: 480px){
+    
+    .img-responsive { /*about me headshot img*/
+        width: 90%;
+        margin: 20px 5%;
+}
+
+}
+
+
+
+
+
+
+
+/*CONTACT PAGE STYLES*/
 form { /*contact form appearance format*/
     width: 375px;
     height: 667px;
