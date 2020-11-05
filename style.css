@@ -1,4 +1,4 @@
-nav {
+nav { /*navigation bar*/
     background-color: black;
     color:white;
     font-family: 'Abel', sans-serif;
@@ -6,7 +6,7 @@ nav {
     font-family: 'Manjari', sans-serif
 }
 
-.navbar-toggler {
+.navbar-toggler { /*navigation dropdown menu icon*/
     align-self: right;
     color: black;
 }
@@ -56,4 +56,13 @@ DESKTOP FORMAT
      .classname {
          width: 92%; /*could make a row of two images (from above) to one image/row, make them larger when reduce browser size*/
      }
+ }
+ @media screen and (max-width: 380px) {
+    .img-responsive .img-fluid .float-left .mr-3 {
+         width:100%;
+     }
+ }
+ @media screen and (max-width: 390px) {
+    .img-responsive .img-fluid .float-left .mr-3 {
+        width:88%;
  }
