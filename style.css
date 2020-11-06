@@ -15,9 +15,12 @@ nav { /*navigation bar*/
     color:black;
 }
 
-body {
+/*body { /*background image for every page
     background-image: url(imgs/cracked-background.png);
-}
+    width:auto;
+    height: auto;
+}*/
+
 figure {
     position:relative;
     max-width: 367px;
@@ -30,10 +33,25 @@ figure {
     margin: 20px 5%;
 }
 
-.mr-3, .mx-3 {
+.mr-3, .mx-3 { /* spacing - check to see for what*/
     margin-right: 10px !important;
 
+}
 
+#portfolio-head h1 { /*Portfolio title*/
+    text-align: center;
+    padding-top: 30px;
+}
+
+body #artwork-text { /*portfolio-artwork text*/
+    color: red;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.list-unstyled {
+    padding: 30px;
+    text-align: left;
+}
 /*---------MOBILE DEVICES-------*/
 
 @media screen and (max-width: 480px){
@@ -102,4 +120,10 @@ DESKTOP FORMAT
  @media screen and (max-width: 390px) {
     .img-responsive .img-fluid .float-left .mr-3 {
         width:88%;
+ }
+
+ @media screen and (max-width: 390) {
+     .img-responsive {
+         width: 48%;
+     }
  }
