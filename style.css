@@ -48,9 +48,14 @@ figure {
     padding-top: 30px;
 }
 
+
+.media h5 {  /*album titles: artwork, theater, costume*/
+    color: blue;
+}
+
 body #artwork-text { /*portfolio-artwork text*/
     color: red;
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
 }
 .list-unstyled {
@@ -59,18 +64,18 @@ body #artwork-text { /*portfolio-artwork text*/
 }
 
 
-/*CONTACT PAGE STYLES*/
+/*--------CONTACT PAGE STYLES---------------*/
 form { /*contact form appearance format*/
-    width: 375px;
+    width: 100%; /*makes it responsive*/
     height: 667px;
     padding: 20px;
-    margin: 5px;
     background-color: #e8e8e8;
     color: black;
 }
 .btn-default { /*submit button appearance*/
     background-color: black;
     color: white;
+    margin-top:5px;
 }
 
 
@@ -116,23 +121,4 @@ DESKTOP FORMAT
 
  /*add another media query if want to adjust something as shrink the browser size*/
  
- @media screen and (max-width:400px) {
-     .classname {
-         width: 92%; /*could make a row of two images (from above) to one image/row, make them larger when reduce browser size*/
-     }
- }
- @media screen and (max-width: 380px) {
-    .img-responsive .img-fluid .float-left .mr-3 {
-         width:100%;
-     }
- }
- @media screen and (max-width: 390px) {
-    .img-responsive .img-fluid .float-left .mr-3 {
-        width:88%;
- }
-
- @media screen and (max-width: 390) {
-     .img-responsive {
-         width: 48%;
-     }
- }
+ 
