@@ -1,3 +1,4 @@
+/*------GLOBAL STYLES---------*/
 nav { /*navigation bar*/
     background-color: black;
     color:white;
@@ -21,6 +22,9 @@ nav { /*navigation bar*/
     height: auto;
 }*/
 
+
+/*-----ABOUT ME/HOME PAGE STYLES--------*/
+
 figure {
     position:relative;
     max-width: 367px;
@@ -38,6 +42,7 @@ figure {
 
 }
 
+/*------PORTFOLIO PAGE STYLES--------*/
 #portfolio-head h1 { /*Portfolio title*/
     text-align: center;
     padding-top: 30px;
@@ -52,6 +57,23 @@ body #artwork-text { /*portfolio-artwork text*/
     padding: 30px;
     text-align: left;
 }
+
+
+/*CONTACT PAGE STYLES*/
+form { /*contact form appearance format*/
+    width: 375px;
+    height: 667px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #e8e8e8;
+    color: black;
+}
+.btn-default { /*submit button appearance*/
+    background-color: black;
+    color: white;
+}
+
+
 /*---------MOBILE DEVICES-------*/
 
 @media screen and (max-width: 480px){
@@ -69,19 +91,6 @@ body #artwork-text { /*portfolio-artwork text*/
 
 
 
-/*CONTACT PAGE STYLES*/
-form { /*contact form appearance format*/
-    width: 375px;
-    height: 667px;
-    padding: 20px;
-    margin: 5px;
-    background-color: #e8e8e8;
-    color: black;
-}
-.btn-default { /*submit button appearance*/
-    background-color: black;
-    color: white;
-}
 /*MOBILE FORMAT
 -single column and reduced image
 -nav bar expanded or left alone if image reduced
