@@ -1,5 +1,6 @@
 /*------GLOBAL STYLES---------*/
 nav { /*navigation bar*/
+   
     background-color: black;
     color:white;
     font-family: 'Abel', sans-serif;
@@ -16,83 +17,113 @@ nav { /*navigation bar*/
     color:black;
 }
 
-/*body { /*background image for every page
+body { 
     background-image: url(imgs/cracked-background.png);
     width:auto;
     height: auto;
-}*/
+}
 
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
 
 /*-----ABOUT ME/HOME PAGE STYLES--------*/
 
-
-figure {
+main header h1 {
+    padding-left: 20px;
+}
+figure .card-img { /*headshot*/
     position:relative;
-    max-width: 367px;
+    max-width: 414px;
     height: auto;
-    padding-right:30px;
+    padding-right:20px;
 }
 
 .mr-3, .mx-3 { /* spacing - check to see for what*/
     margin-right: 10px !important;
-
+    
+    
 }
 
+header { /*About Me title*/
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+main section .container {
+    padding: 50px;
+}
 /*------PORTFOLIO PAGE STYLES--------*/
 #portfolio-head h1 { /*Portfolio title*/
     text-align: center;
     padding-top: 30px;
     color: black;
+    font-size: 5rem;
 }
 
-.container {
-    background-color: #bdbabae7;
+li h3 { /*Artwork title*/
+    font-size: 6vw;
+    padding-bottom: 10px;
 }
 
+
+#art-img { /*portrait img*/
+    width: 70vw;
+    padding-top: 15px;
+}
+#text-1 { /* artwork text block responsiveness*/
+    font-size: 3vw;
+    padding: 10px;
+    padding-top: 30px;
+    max-width:100%;
+    height: auto;
+}
+
+#theater-img { /*Theater img*/
+    width: 70vw;
+}
+
+#text-2 { /* theater text block responsiveness*/
+    font-size: 3vw;
+    padding: 10px;
+    padding-top: 30px;
+    max-width:100%;
+    height: auto;
+}
+
+#costume-img { /*costume img*/
+    width: 70vw;
+}
+
+#text-3 { /*costume text block responsiveness*/
+    font-size: 3vw;
+    padding: 10px;
+    padding-top: 30px;
+    max-width:100%;
+    height: auto;
+}
+
+li .h2 { /*headings for albums, responsive*/
+    font-size: 4rem;
+}
+
+
+
+.card {
+    padding: 10px;
+    
+}
+
+    
 .card-text h5 {  /*album titles: artwork, theater, costume*/
    padding-left: 20px;
    padding-bottom:5px;
 }
 
-#card-box {
-    background-color:;
-}
 
-
-
-#art-img { 
-    padding:20px;
-    margin-top:15px;
-    border-color:black;
-    border-width: 3px;
-}
-
-#art-text   {
-    padding: 20px;
-    margin-top:-20px;
-}
-
-#theater-img {
-    padding: 20px;
-    margin-top:15px;
-}
-
-
-#theater-text {
-    padding: 20px;
-    margin-top:-20px;
-}
-
-#costume-img {
-    padding: 20px;
-    margin-top:15px;
-}
-
-
-#costume-text {
-    padding: 20px;
-    margin-top:-20px;
-}
 
 /*--------CONTACT PAGE STYLES---------------*/
 form { /*contact form appearance format*/
@@ -108,47 +139,72 @@ form { /*contact form appearance format*/
     margin-top:5px;
 }
 
+main .container {
+    padding: 50px;
+}
 
 /*---------MOBILE DEVICES-------*/
 
 @media screen and (max-width: 480px){
     
-    .img-responsive { /*about me headshot img*/
+    .container { /*about me headshot img*/
         width: 90%;
-        margin: 20px 5%;
+        margin: 20px 5%;   
+}
+    .row {
+        width: 90%;
+        margin: 20px 5%;   
+    }
+    .card {
+        width: 90%;
+        margin: 20px 5%; 
+    }
+    #about-me-id {
+        width: 90%;
+        margin: 20px 5%; 
+    }
 }
 
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        margin: 20px 5%;   
+    }
+       .row {
+        width: 90%;
+        margin: 20px 5%; 
+    }  
+    .card {
+        width: 90%;
+        margin: 20px 5%; 
+    }
+    #about-me-id {
+        width: 90%;
+        margin: 20px 5%; 
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 20px 5%;   
+    }
+       .row {
+        width: 90%;
+        margin: 20px 5%; 
+    }  
+    .card {
+        width: 90%;
+        margin: 20px 5%; 
+    }
+    #about-me-id {
+        width: 90%;
+        margin: 20px 5%; 
+    }
+}
+   
 
 
 
 
 
-
-/*MOBILE FORMAT
--single column and reduced image
--nav bar expanded or left alone if image reduced
--padding
-- portfolio single stacked format, insert cover image for each
-- text reduced under image
-
-IPAD FORMAT
--image adjusted
-
-DESKTOP FORMAT
-- image size, padding, alignment
-- */
-
-
- /*-------MEDIA QUERIES------*/
-
- @media screen and (max-width:700px) {
-     .classname {
-         width: 46%; /*could make a row of four images to two images/row */
-     }
- }
-
- /*add another media query if want to adjust something as shrink the browser size*/
- 
- 
