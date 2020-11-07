@@ -25,16 +25,12 @@ nav { /*navigation bar*/
 
 /*-----ABOUT ME/HOME PAGE STYLES--------*/
 
+
 figure {
     position:relative;
     max-width: 367px;
     height: auto;
-}
-.img-fluid {
-    position:relative;
-    max-width: 480px;
-    height: auto;
-    margin: 20px 5%;
+    padding-right:30px;
 }
 
 .mr-3, .mx-3 { /* spacing - check to see for what*/
@@ -46,23 +42,57 @@ figure {
 #portfolio-head h1 { /*Portfolio title*/
     text-align: center;
     padding-top: 30px;
+    color: black;
+}
+
+.container {
+    background-color: #bdbabae7;
+}
+
+.card-text h5 {  /*album titles: artwork, theater, costume*/
+   padding-left: 20px;
+   padding-bottom:5px;
+}
+
+#card-box {
+    background-color:;
 }
 
 
-.media h5 {  /*album titles: artwork, theater, costume*/
-    color: blue;
+
+#art-img { 
+    padding:20px;
+    margin-top:15px;
+    border-color:black;
+    border-width: 3px;
 }
 
-body #artwork-text { /*portfolio-artwork text*/
-    color: red;
-    text-align: left;
-    flex-wrap: wrap;
-}
-.list-unstyled {
-    padding: 30px;
-    text-align: left;
+#art-text   {
+    padding: 20px;
+    margin-top:-20px;
 }
 
+#theater-img {
+    padding: 20px;
+    margin-top:15px;
+}
+
+
+#theater-text {
+    padding: 20px;
+    margin-top:-20px;
+}
+
+#costume-img {
+    padding: 20px;
+    margin-top:15px;
+}
+
+
+#costume-text {
+    padding: 20px;
+    margin-top:-20px;
+}
 
 /*--------CONTACT PAGE STYLES---------------*/
 form { /*contact form appearance format*/
