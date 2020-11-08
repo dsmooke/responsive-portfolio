@@ -126,6 +126,7 @@ li .h2 { /*headings for albums, responsive*/
 
 
 /*--------CONTACT PAGE STYLES---------------*/
+
 form { /*contact form appearance format*/
     width: 100%; /*makes it responsive*/
     height: 667px;
@@ -139,70 +140,10 @@ form { /*contact form appearance format*/
     margin-top:5px;
 }
 
-main .container {
+main .container { /*container background position*/
     padding: 50px;
 }
 
-/*---------MOBILE DEVICES-------*/
-
-@media screen and (max-width: 480px){
-    
-    .container { /*about me headshot img*/
-        width: 90%;
-        margin: 20px 5%;   
-}
-    .row {
-        width: 90%;
-        margin: 20px 5%;   
-    }
-    .card {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-    #about-me-id {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .container {
-        width: 90%;
-        margin: 20px 5%;   
-    }
-       .row {
-        width: 90%;
-        margin: 20px 5%; 
-    }  
-    .card {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-    #about-me-id {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 90%;
-        margin: 20px 5%;   
-    }
-       .row {
-        width: 90%;
-        margin: 20px 5%; 
-    }  
-    .card {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-    #about-me-id {
-        width: 90%;
-        margin: 20px 5%; 
-    }
-}
-   
 
 
 
