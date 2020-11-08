@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the second assignment from the UConn Coding Bootcamp curriculum which combines ~our working knowledge of~ the first week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, and Web Accessibility) with the second week's topic: Bootstrap. 
+This is the second assignment from the UConn Coding Bootcamp curriculum which combines our working knowledge of the first week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, and Web Accessibility) with the second week's topic: Bootstrap. 
 
  For this assignment we were to build a responsive portfolio from scratch. 
 
@@ -35,13 +35,13 @@ In order to be considered *Responsive* our site must have the following:
 
 ## Developer 
 
-~For my responsive portfolio I focued on creating wireframes to help visualize the finished product, and on wrapping my head around how to integrate and edit Bootstrap stylesheets.
+~For my responsive portfolio I focused on creating wireframes to help visualize the finished product, as well as trying to wrap my head around how to efficiently integrate and edit Bootstrap stylesheets. Easier said than done. 
 
 ![wire frame mobile reference](./imgs/mobile375x667-wireframe.png)
 
 While some developers would disagree with inserting comments that explain each of their code's components; I, on the otherhand, believe that doing so makes my code more accessible, not only for the user, but also for anyone who wants to learn how to code. The detailed comments were not only for my own sanity, but for a future newbie who wants to make his/her/their own responsive portfolio. 
 
-![Comments in code](image.jpg)
+![Comments in code](./imgs/code-comments.png)
 
 ## Mock-Up
 
