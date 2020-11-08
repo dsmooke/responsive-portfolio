@@ -35,11 +35,11 @@ In order to be considered *Responsive* our site must have the following:
 
 ## Developer 
 
-~For my responsive portfolio I focused on creating wireframes to help visualize the finished product, as well as trying to wrap my head around how to efficiently integrate and edit Bootstrap stylesheets. Easier said than done. 
+For my responsive portfolio I focused on creating wireframes to help visualize the finished product, as well as trying to wrap my head around how to efficiently integrate and edit Bootstrap stylesheets. Easier said than done. 
 
 ![wire frame mobile reference](./imgs/mobile375x667-wireframe.png)
 
-While some developers would disagree with inserting comments that explain each of their code's components; I, on the otherhand, believe that doing so makes my code more accessible, not only for the user, but also for anyone who wants to learn how to code. The detailed comments were not only for my own sanity, but for a future newbie who wants to make his/her/their own responsive portfolio. 
+While some developers would disagree with inserting comments that explain each of their code's components; I, on the otherhand, believe that doing so makes my code more accessible, not only for the user, but also for anyone who wants to learn how to code and make his/her/their own responsive portfolio.
 
 ![Comments in code](./imgs/code-comments.png)
 
