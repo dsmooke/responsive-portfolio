@@ -18,7 +18,7 @@ nav { /*navigation bar*/
 }
 
 body { /*background image for whole site*/
-    background-image: url(imgs/cracked-background.png);
+    /* background-image: url(imgs/cracked-background.png); */
     width:auto;
     height: auto;
 }
@@ -32,10 +32,18 @@ body { /*background image for whole site*/
 
 figure .card-img { /*headshot*/
     position: relative;
-    max-width: 414px;
+    max-width: 200px;
     height: auto;
-    padding-right:20px;
-}
+    padding:0px;
+    margin-right: 0px;
+    margin-left: -6px;
+    border: solid;
+    border-radius: 2rem;
+   
+    
+    
+    
+  }
 
 .mr-3, .mx-3 { /* spacing - check to see for what*/
     margin-right: 10px !important;
@@ -142,3 +150,61 @@ footer { /*footer*/
 }
 
 
+/* Extra small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* small devices (portrait phones, 375px and up)*/
+@media (min-width: 375px) {
+    figure .card-img {
+        position: relative;
+        flex-wrap: wrap;
+        display: inline-block;
+        margin-left: 70px;
+    }
+
+    #about-me-title {
+        font-size: 20px;
+        
+    }
+    p {
+        padding: 30px;
+    }
+    /*text*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+    /* container {
+        padding: 10px;
+    } */
+    figure .card-img { /*headshot*/
+    margin-left: -5px;
+    position: relative;
+    margin-top: -20px;
+    }
+    #about-me-title {
+    font-size: 25px;
+    }
+    p {
+        padding: 0px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    figure .card-img { /*headshot*/
+        margin-left: -5px;
+        position: relative;
+        margin-top: -20px;
+        
+        }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
