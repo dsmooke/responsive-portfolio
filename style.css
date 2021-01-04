@@ -36,23 +36,20 @@ footer {
     padding: 30px;
     text-align: center;
 } 
-.media {
+#media-about {
     background-color: black;
     color: white;
     border-radius: 2rem;
     padding: 20px;
 }
-.media-body {
+#media-about-body {
     /* color: blue; */
     padding: 25px;
     padding-right: 35px;
     padding-left: 35px;
 }
 
-
-
-
-img { /*headshot*/
+#about-me-img { /*headshot*/
     position: relative;
     flex-wrap: wrap;
     max-width: 200px;
