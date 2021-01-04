@@ -20,7 +20,7 @@
           rel="stylesheet">
 
     <!--Custom CSS Stylesheet-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="2style.css">
 
   </head>
 
@@ -58,84 +58,92 @@
     </nav>
 
     <!--Main view of portfolio-->
-    <main class="container">
-      <section class="row">
-        <section class="col-sm-12 col-med-4" id="portfolio-head">
-          <h1>Portfolio</h1>
-          <!--header needs to be inside container for the alignment to be within the column-->
+    <main class="container-fluid">
+      <h1 id="portfolio-title">Portfolio</h1>
+
+      <!--Web Development Block-->
+      <section class="media row" id="web-row">
+        <section class="media-body col-sm" id="web-dev-block">
+          <h3>Web Development</h3><img src="./imgs/horiseon-working-demo.png"
+               class="w-100 mr-4 d-flex img-fluid" id="webdev-img"
+               alt="Web Development Album Cover">
+          <p id="text-0"> Skills include HTML, CSS, JavaScript, Git, GitHub,
+            GitLab, jQuery, node.js, Bootstrap, APIs, DOM. See the following
+            applications for examples:
+            <a href="https://www.danasmooke.com/art-portfolio-1"
+               target="_blank">Query Cuisine</a>,
+
+            <a href="https://dsmooke.github.io/workday-daily-planner/"
+               target="_blank">Workday Planner</a>,
+            <a
+               href="https://dsmooke.github.io/go-for-launch/"
+               target="_blank">Refactored Website</a>.
+          </p>
+
         </section>
         <!--end of class col-sm-12-->
       </section>
       <!--end of row class-->
 
-      <section class="card">
-        <!--Portfolio Grid-->
-        <ul class="list-group list-group-flush">
 
-          <!--Web Development Block-->
-          <li class="list-group-item list-unstyled h1">
-            <h3>Web Development</h3><img src="./imgs/horiseon-working-demo.png"
-                 class="w-100 mr-4 d-flex img-fluid" id="webdev-img"
-                 alt="Web Development Album Cover">
-            <p id="text-0"> Skills include HTML, CSS, JavaScript, Git, GitHub,
-              GitLab, jQuery, node.js, Bootstrap, APIs, DOM. See the following
-              applications for examples:
-              <a href="https://www.danasmooke.com/art-portfolio-1"
-                 target="_blank">Query Cuisine</a>,
+      <!--Artwork Block-->
+      <section class="media row">
 
-              <a href="https://dsmooke.github.io/workday-daily-planner/"
-                 target="_blank">Workday Planner</a>,
-              <a
-                 href="https://dsmooke.github.io/go-for-launch/"
-                 target="_blank">Refactored Website</a>.
-            </p>
-          </li>
+        <section class="media-body col-sm">
+          <h3>Artwork</h3><img src="./imgs/self-portrait.jpg"
+               class="w-100 mr-4 d-flex img-fluid" id="art-img"
+               alt="Art Portfolio Album Cover">
+          <p id="text-1">Mediums range from watercolor, charcoal, oil, pencil,
+            acrylic, and ink. Landscapes, Georgia O'Keefe style. Simple
+            subjects but high contrast. Click <a
+               href="https://www.danasmooke.com/art-portfolio-1"
+               target="_blank">here </a>to view more.</p>
 
-          <!--Artwork Block-->
-          <li class="list-group-item list-unstyled h1">
-            <h3>Artwork</h3><img src="./imgs/self-portrait.jpg"
-                 class="w-100 mr-4 d-flex img-fluid" id="art-img"
-                 alt="Art Portfolio Album Cover">
-            <p id="text-1">Mediums range from watercolor, charcoal, oil, pencil,
-              acrylic, and ink. Landscapes, Georgia O'Keefe style. Simple
-              subjects but high contrast. Click <a
-                 href="https://www.danasmooke.com/art-portfolio-1"
-                 target="_blank">here </a>to view more.</p>
-          </li>
-
-          <!--Theater Block-->
-          <li class="list-group-item list-unstyled h1">
-            <h3>Theater</h3><img src="./imgs/1776.jpg"
-                 class="w-100 mr-4 img-fluid" id="theater-img"
-                 alt="1776 Show Photo">
-            <p id="text-2">She calls herself a Swiss Army Knife: she does a
-              little bit of everything. She has been a costume designer,
-              director, makeup artist, hair and wig stylist, and fight captain,
-              among other positions, and has worked on up to sixteen shows
-              during her time at Yale. See a full list of credits <a
-                 href="https://collegearts.yale.edu/biography/danny-smooke"
-                 target="_blank"> here.</a></p>
-          </li>
-
-          <!--Costume Block-->
-          <li class="list-group-item list-unstyled h1">
-            <h3>Costumes</h3><img src="./imgs/Tenn_6.jpg"
-                 class="w-100 mr-4 img-fluid" id="costume-img"
-                 alt="Tenn Show Photo">
-            <p id="text-3">When it comes to costume design, her primary focus is
-              the overlap between fashion history and emotion. In other words,
-              how a garment’s pattern, color, and texture can reveal a
-              character’s emotions, personality, and subtext. Some of her
-              costume trademarks include her use of bold colors and simplicity
-              in design. Click <a
-                 href="https://www.danasmooke.com/theater-features"
-                 target="_blank">here </a>to view more.</p>
-          </li>
-
-        </ul>
+        </section>
       </section>
 
+      <!--Theater Block-->
+      <section class="media row">
+        <section class="media-body col-sm">
+          <h3>Theater</h3><img src="./imgs/1776.jpg"
+               class="w-100 mr-4 img-fluid" id="theater-img"
+               alt="1776 Show Photo">
+          <p id="text-2">She calls herself a Swiss Army Knife: she does a
+            little bit of everything. She has been a costume designer,
+            director, makeup artist, hair and wig stylist, and fight
+            captain,
+            among other positions, and has worked on up to sixteen shows
+            during her time at Yale. See a fsectionl list of credits <a
+               href="https://collegearts.yale.edu/biography/danny-smooke"
+               target="_blank"> here.</a></p>
+          </li>
+        </section>
+      </section>
+
+
+      <!--Costume Block-->
+      <section class="media row">
+
+        <section class="media-body col-sm">
+          <h3>Costumes</h3><img src="./imgs/Tenn_6.jpg"
+               class="w-100 mr-4 img-fluid" id="costume-img"
+               alt="Tenn Show Photo">
+          <p id="text-3">When it comes to costume design, her primary focus
+            is
+            the overlap between fashion history and emotion. In other words,
+            how a garment’s pattern, color, and texture can reveal a
+            character’s emotions, personality, and subtext. Some of her
+            costume trademarks include her use of bold colors and simplicity
+            in design. Click <a
+               href="https://www.danasmooke.com/theater-features"
+               target="_blank">here </a>to view more.</p>
+
+        </section>
+      </section>
+
+
     </main>
+
     <footer>
       <!--Footer-->
       <p id="footer">Responsive Portfolio</p>
