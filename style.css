@@ -43,7 +43,7 @@ figure .card-img { /*headshot*/
     
     
     
-  }
+}
 
 .mr-3, .mx-3 { /* spacing - check to see for what*/
     margin-right: 10px !important;
@@ -64,16 +64,29 @@ main section .container {
     text-align: center;
     padding-top: 30px;
     color: black;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 li h3 { /*Artwork title*/
-    font-size: 6vw;
+    font-size: 4vw;
+    text-align: center;
 }
 
+#webdev-img { /*webdev horiseon demo img*/
+    width: 70vw;
+    padding-top: 5px;
+}
+
+#text-0 { /*webdev text block responsiveness*/
+    font-size: 3vw;
+    padding: 10px;
+    padding-top: 30px;
+    max-width:100%;
+    height: auto;
+}
 
 #art-img { /*portrait img*/
-    width: 70vw;
+    width: 30vw;
     padding-top: 5px;
 }
 
