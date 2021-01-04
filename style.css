@@ -23,6 +23,13 @@ body { /*background image for whole site*/
     height: auto;
 }
 
+footer {
+    margin-top: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
 /*-----ABOUT ME/HOME PAGE STYLES--------*/
 
 #about-me-title { 
@@ -66,13 +73,7 @@ img { /*headshot*/
     /* ^right, down, blur, spread*/
 }
 
-footer {
-    margin-top: 200px;
-    background-color: black;
-    text-align: center;
-    color: white;
-    
-}
+
 
 /*------PORTFOLIO PAGE STYLES--------*/
 
