@@ -1,0 +1,277 @@
+/*------GLOBAL STYLES---------*/
+nav {
+  /*navigation bar*/
+
+  background-color: black;
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-family: "Cormorant SC", serif;
+  font-family: "Manjari", sans-serif;
+}
+
+.navbar-toggler {
+  /*navigation dropdown menu icon*/
+  align-self: right;
+  color: black;
+}
+
+.nav-link {
+  /*navbar links*/
+  color: black;
+}
+
+body {
+  /*background image for whole site*/
+  /* background-image: url(imgs/cracked-background.png); */
+  width: auto;
+  height: auto;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+/*-----ABOUT ME/HOME PAGE STYLES--------*/
+
+#about-me-title {
+  padding: 30px;
+  text-align: center;
+}
+#media-about {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 20px;
+}
+#media-about-body {
+  /* color: blue; */
+  padding: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+#about-me-img {
+  /*headshot*/
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 200px;
+  height: 250px;
+  align-self: left;
+  margin: 25px;
+
+  /* align-self: flex-end; */
+  /* padding:0px; */
+  /* margin-right: 0px; */
+
+  border: 5px solid;
+  /* border-color: grey; */
+  border-radius: 2rem;
+  background-color: white;
+  /* box-shadow: 2px 2px 10px 2px #4e4a4a;  */
+  /* ^right, down, blur, spread*/
+}
+
+/*------PORTFOLIO PAGE STYLES--------*/
+.container-fluid {
+  /* padding-right: 0px; */
+}
+
+#portfolio-title {
+  /*Portfolio title*/
+  text-align: center;
+  padding: 30px;
+  /* color: black; */
+  /* font-size: 3rem; */
+}
+.media {
+  color: white;
+  background-color: black;
+  /* text-align: center; */
+  /* border: 2px solid; */
+  border-radius: 2rem;
+  margin: 10px;
+  margin-right: 10px;
+  /* padding-right: 0px !important; */
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+/*----------*/
+.media-body {
+  padding: 10px 0px 20px 0;
+  text-align: left;
+}
+
+#webdev-img {
+  /*webdev horiseon demo img*/
+  /* width: 70vw; */
+  /* padding-top: 5px; */
+  padding: 20px;
+  /* background-color: white; */
+  /* border: 10px solid; */
+  /* border-color: green; */
+  /* margin: -30px; */
+}
+
+#text-0 {
+  /*webdev text block responsiveness*/
+  /* font-size: 3vw; */
+  /* padding: 10px; */
+  padding-top: 10px;
+  /* max-width:100%; */
+  /* height: auto; */
+  /* background-color: rgb(84, 231, 84); */
+  /* margin: 10px; */
+  /* padding: 10px; */
+}
+/*---------------------*/
+
+#art-img {
+  /*portrait img*/
+  /* width: 30vw; */
+  padding: 20px;
+}
+
+#text-1 {
+  /* artwork text block responsiveness*/
+  /* background-color:orange; */
+  /* font-size: 3vw; */
+  /* padding: 10px; */
+  /* padding-top: 30px; */
+  /* max-width:100%; */
+  /* height: auto; */
+}
+/*---------------------*/
+
+#theater-img {
+  /*Theater img*/
+  /* width: 70vw; */
+  padding: 20px;
+}
+
+#text-2 {
+  /* theater text block responsiveness*/
+  /* background-color: yellow; */
+  /* font-size: 3vw; */
+  /* padding: 10px; */
+  /* padding-top: 30px; */
+  /* max-width:100%; */
+  /* height: auto; */
+}
+
+/*---------------------*/
+
+#costume-img {
+  /*costume img*/
+  /* width: 70vw; */
+  padding: 20px;
+}
+
+#text-3 {
+  /*costume text block responsiveness*/
+  /* background-color:purple; */
+  /* font-size: 3vw; */
+  /* padding: 10px; */
+  /* padding-top: 30px; */
+  /* max-width:100%; */
+  /* height: auto; */
+}
+
+/*--------CONTACT PAGE STYLES---------------*/
+
+form {
+  /*contact form appearance format*/
+  width: 100%; /*makes it responsive*/
+  height: 667px;
+  padding: 20px;
+  background-color: #e8e8e8;
+  color: black;
+}
+
+.btn-default {
+  /*submit button appearance*/
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+}
+
+main .container {
+  /*container background position*/
+  padding: 50px;
+}
+
+footer {
+  /*footer*/
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 60px;
+}
+
+#footer {
+  /*footer text*/
+  padding-top: 15px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* small devices (portrait phones, 375px and up)*/
+@media (min-width: 375px) {
+  figure .card-img {
+    position: relative;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-left: 70px;
+  }
+
+  #about-me-title {
+    font-size: 20px;
+  }
+  p {
+    padding: 30px;
+  }
+  /*text*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  /* container {
+        padding: 10px;
+    } */
+  figure .card-img {
+    /*headshot*/
+    margin-left: -5px;
+    position: relative;
+    margin-top: -20px;
+  }
+  #about-me-title {
+    font-size: 25px;
+  }
+  p {
+    padding: 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  figure .card-img {
+    /*headshot*/
+    margin-left: -5px;
+    position: relative;
+    margin-top: -20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  ...;
+}

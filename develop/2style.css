@@ -1,0 +1,199 @@
+/*------GLOBAL STYLES---------*/
+nav { /*navigation bar*/
+   
+    background-color: black;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Manjari', sans-serif
+}
+
+.navbar-toggler { /*navigation dropdown menu icon*/
+    align-self: right;
+    color: black;
+}
+
+.nav-link { /*navbar links*/
+    color:black;
+}
+
+body { /*background image for whole site*/
+    /* background-image: url(imgs/cracked-background.png); */
+    width:auto;
+    height: auto;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+/*-----ABOUT ME/HOME PAGE STYLES--------*/
+
+
+/*------PORTFOLIO PAGE STYLES--------*/
+.container-fluid {
+    /* padding-right: 0px; */
+}
+
+#portfolio-title { /*Portfolio title*/
+    /* text-align: center; */
+    /* padding: 30px; */
+    /* color: black; */
+    /* font-size: 3rem; */
+}
+.media {
+    color: white;
+    background-color: black;
+    /* text-align: center; */
+    /* border: 2px solid; */
+    /* border-radius: 2rem; */
+    margin: 10px;
+    margin-right: 10px;
+    /* padding-right: 0px !important; */
+    margin-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+/*----------*/
+.media-body{
+    
+    
+    padding-top:10px 0px 20px 0;
+    text-align: center;
+}
+
+#webdev-img { /*webdev horiseon demo img*/
+    /* width: 70vw; */
+    /* padding-top: 5px; */
+    padding: 20px;
+    /* background-color: white; */
+    /* border: 10px solid; */
+    /* border-color: green; */
+    /* margin: -30px; */
+}
+
+#text-0 { /*webdev text block responsiveness*/
+    /* font-size: 3vw; */
+    /* padding: 10px; */
+    padding-top: 10px;
+    /* max-width:100%; */
+    /* height: auto; */
+    /* background-color: rgb(84, 231, 84); */
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+/*---------------------*/
+
+#art-img { /*portrait img*/
+    /* width: 30vw; */
+    padding-top: 5px;
+}
+
+#text-1 { /* artwork text block responsiveness*/
+    background-color:orange;
+    /* font-size: 3vw; */
+    /* padding: 10px; */
+    /* padding-top: 30px; */
+    /* max-width:100%; */
+    /* height: auto; */
+}
+/*---------------------*/
+
+#theater-img { /*Theater img*/
+    /* width: 70vw; */
+}
+
+#text-2 { /* theater text block responsiveness*/
+    background-color: yellow;
+    /* font-size: 3vw; */
+    /* padding: 10px; */
+    /* padding-top: 30px; */
+    /* max-width:100%; */
+    /* height: auto; */
+}
+
+/*---------------------*/
+
+#costume-img { /*costume img*/
+    /* width: 70vw; */
+    padding-top: 10px;
+}
+
+#text-3 { /*costume text block responsiveness*/
+    background-color:purple;
+    /* font-size: 3vw; */
+    /* padding: 10px; */
+    /* padding-top: 30px; */
+    /* max-width:100%; */
+    /* height: auto; */
+}
+
+
+
+/* ------------MEDIA QUERIES ---------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* small devices (portrait phones, 375px and up)*/
+/* @media (min-width: 375px) {
+    .containter {
+        width: auto;
+    }
+    
+    figure .card-img {
+        position: relative;
+        flex-wrap: wrap;
+        display: inline-block;
+        margin-left: 70px;
+    }
+
+    #about-me-title {
+        font-size: 20px;
+        
+    }
+    p {
+        padding: 30px;
+    }
+
+    /*text*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+/* @media (min-width: 576px) { 
+
+    
+    figure .card-img { 
+    margin-left: -5px;
+    position: relative;
+    margin-top: -20px;
+    }
+    #about-me-title {
+    font-size: 25px;
+    }
+    p {
+        padding: 0px;
+    }
+    
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    figure .card-img { 
+        margin-left: -5px;
+        position: relative;
+        margin-top: -20px;
+        
+        }
+} */
+
+/* Large devices (desktops, 992px and up)*/
+/* @media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/* @media (min-width: 1200px) { ... } */ 
