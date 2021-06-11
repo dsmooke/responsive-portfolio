@@ -2,20 +2,34 @@
 
 ## Description
 
-This is the second assignment from the UConn Coding Bootcamp curriculum which combines our working knowledge of the first week's topics (Git, Terminal, HTML, CSS, GitHub, GitHub Pages, GitLab, and Web Accessibility) with the second week's topic: Bootstrap. 
+A responsive portfolio built from scratch using Bootstrap.
 
- For this assignment we were to build a responsive portfolio from scratch. 
+\*\* **Update: March 30, 2021** \*\*
 
+Refactored original responsive portfolio to use React.js.
+
+See [React Portfolio](https://github.com/dsmooke/react-portfolio) to view documentation.
+
+View refactored deployed app [here](https://dsmooke.github.io/responsive-portfolio/).
+
+## Technologies Used
+
+- React.js
+- Node.js
+- w3schools stylesheet
+- HTML
+- JavaScript
+- CSS
 
 ## Goals
 
-1. A portfolio that is mobile responsive, or a website with webpages whose format and content respond to the visual constraints of a mobile phone and the latitude of a desktop. 
+1. A portfolio that is mobile responsive, or a website with webpages whose format and content respond to the visual constraints of a mobile phone and the latitude of a desktop.
 
-2. The code for the HTML must be accessible - the code must have semantic HTML. 
+2. The code for the HTML must be accessible - the code must have semantic HTML.
 
- ### Sub-goals
- 
-In order to be considered *Responsive* our site must have the following: 
+### Sub-goals
+
+In order to be considered _Responsive_ our site must have the following:
 
 - proper index.html, portfolio.html, and contact.html files that adhere to accessibility standards (use semantic HTML)
 
@@ -23,7 +37,7 @@ In order to be considered *Responsive* our site must have the following:
 
 - A navbar that is consistent across each page
 
-- On each page must contain (on navbar) links to Home/About, Contact, and Portfolio pages. (ex. *dsmooke.github.io/responsive-portfolio/home*)
+- On each page must contain (on navbar) links to Home/About, Contact, and Portfolio pages. (ex. _dsmooke.github.io/responsive-portfolio/home_)
 
 - A responsive layout
 
@@ -33,9 +47,9 @@ In order to be considered *Responsive* our site must have the following:
 
 - Your personalized information (bio, name, images, links to social media, etc.)
 
-## Developer 
+## Developer
 
-For my responsive portfolio I focused on creating wireframes to help visualize the finished product, as well as trying to wrap my head around how to efficiently integrate and edit Bootstrap stylesheets. Easier said than done. 
+For my responsive portfolio I focused on creating wireframes to help visualize the finished product, as well as trying to wrap my head around how to efficiently integrate and edit Bootstrap stylesheets. Easier said than done.
 
 ![wire frame mobile reference](./imgs/mobile375x667-wireframe.png)
 
@@ -45,6 +59,6 @@ While some developers would disagree with inserting comments that explain each o
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality: 
+The following image shows the web application's _original_ appearance and functionality:
 
 ![mobile portfolio demo](./imgs/mobile-wireframe-demo.png)
